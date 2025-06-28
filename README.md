@@ -44,6 +44,9 @@ cargo run
 ```
 src/
 ├── handlers/
+│   ├── mod.rs
+│   ├── help.rs
+│   ├── text.rs
 │   └── start.rs
 ├── main.rs
 ```
