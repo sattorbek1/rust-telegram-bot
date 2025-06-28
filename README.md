@@ -1,4 +1,3 @@
-````markdown
 # Rust Telegram Bot
 
 A simple Telegram bot written in Rust using `teloxide`.
@@ -11,7 +10,7 @@ Follow these steps to run the bot locally:
 
 ```bash
 git clone https://github.com/sattorbek1/rust-telegram-bot.git rust-telegram-bot
-````
+```
 
 ### 2. Navigate into the project directory
 
