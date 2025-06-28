@@ -1,45 +1,45 @@
-# Rust Telegram Bot Example
+# Rust Telegram Bot Misoli
 
-A simple Telegram bot written in Rust using `teloxide`.
+Rust dasturlash tilida `teloxide` kutubxonasi yordamida yozilgan oddiy Telegram bot.
 
-## 🚀 Getting Started
+## 🚀 Boshlash
 
-Follow these steps to run the bot locally:
+Botni lokal kompyuteringizda ishga tushurish uchun quyidagi bosqichlarni bajaring:
 
-### 1. Clone the repository
+### 1. Repositoriyani klonlash
 
 ```bash
 git clone https://github.com/sattorbek1/rust-telegram-bot.git rust-telegram-bot
 ```
 
-### 2. Navigate into the project directory
+### 2. Loyihaning papkasiga o'ting
 
 ```bash
 cd rust-telegram-bot
 ```
 
-### 3. Set your bot token in `src/main.rs`
+### 3. Bot tokenini `src/main.rs` fayliga kiriting
 
-Open `src/main.rs` and replace the placeholder with your actual Telegram Bot Token:
+`src/main.rs` faylini oching va token o'rniga o'zingizning Telegram Bot Tokeningizni yozing:
 
 ```rust
 let bot = Bot::new("your_actual_telegram_bot_token_here");
 ```
 
-> ⚠️ **Never share your token publicly.**
+> ⚠️ **Tokeningizni hech qachon ommaga oshkor qilmang.**
 
-### 4. Run the bot
+### 4. Botni ishga tushuring
 
 ```bash
 cargo run
 ```
 
-## 🛠 Requirements
+## 🛠 Talablar
 
 * [Rust](https://www.rust-lang.org/tools/install)
-* A valid [Telegram Bot Token](https://t.me/BotFather)
+* Amalga oshirilgan [Telegram Bot Token](https://t.me/BotFather)
 
-## 📂 Project Structure
+## 📂 Loyihaning tuzilishi
 
 ```
 src/
@@ -51,8 +51,8 @@ src/
 ├── main.rs
 ```
 
-## ✅ Features
+## ✅ Imkoniyatlar
 
-* Command handling
-* Easily extensible
-* Async & efficient using `tokio` and `teloxide`
+* Buyruqlarni qayta ishlash
+* Oson kengaytiriladi
+* `tokio` va `teloxide` yordamida asinxron va samarali ishlaydi
