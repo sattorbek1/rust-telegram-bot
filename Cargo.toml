@@ -1,0 +1,8 @@
+[package]
+name = "rust-telegram"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+teloxide = { version = "0.16.0", features = ["macros"] }
+tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
