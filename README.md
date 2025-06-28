@@ -1,4 +1,4 @@
-# Rust Telegram Bot
+# Rust Telegram Bot Example
 
 A simple Telegram bot written in Rust using `teloxide`.
 
